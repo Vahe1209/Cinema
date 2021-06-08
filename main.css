@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+header {
+  background-image: url(super-saver-top-banner.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 1px black;
+}
+
+.sign-in {
+  background-color: #e50914;
+}
+
+.sign-up {
+  background-color: #4caf50;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+}
