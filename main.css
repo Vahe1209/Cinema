@@ -2,10 +2,13 @@
   margin: 0px;
   box-sizing: border-box;
   padding: 0px;
+  font-family: serif;
 }
 
-header {
-  background-image: url(./Images/AM-en-20210524-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+main {
+  background-image: url(./Images/super-saver-top-banner.jpg);
+  background-size: cover;
+  object-fit: cover;
   height: 100vh;
   background-repeat: no-repeat;
 }
@@ -22,8 +25,9 @@ header {
 }
 
 #navigation:hover {
-  background-color: #002952;
+  background-color: #2c6673ad;
   opacity: 0.8;
+  transition: all 500ms;
 }
 
 .button {
@@ -39,11 +43,11 @@ header {
 }
 
 .sign-in {
-  background-color: #e50914;
+  background-color: #274dafa3;
 }
 
 .sign-up {
-  background-color: #4caf50;
+  background-color: #8b27afa3;
 }
 
 .support > a {
@@ -54,6 +58,7 @@ header {
 
 .support > a:hover {
   color: black;
+  transition: all 500ms;
 }
 
 .search {
@@ -70,96 +75,26 @@ header {
 }
 
 .search:hover {
-  width: 400px;
+  width: 300px;
   position: relative;
-  font-size: 40px;
+  font-size: 30px;
+  transition: all 500ms;
 }
-.about {
+.for-guest {
   display: flex;
 }
 
-.about > * {
+.for-guest > * {
   margin: 5px;
 }
 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
+#filmTrailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video {
-  width: 100%;
-  height: 50%;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  width: 60%;
+  padding: 30px;
 }
