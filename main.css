@@ -12,18 +12,18 @@ main {
   background-repeat: no-repeat;
 }
 
-#navigation {
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#navigation > * {
+.navigation > * {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-#navigation:hover {
+.navigation:hover {
   background-color: #2c6673ad;
   opacity: 0.8;
   transition: all 500ms;
