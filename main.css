@@ -41,6 +41,11 @@ main {
   box-shadow: 0 1px black;
 }
 
+.button > * {
+  text-decoration: none;
+  color: white;
+}
+
 .sign-in {
   background-color: #274dafa3;
 }
