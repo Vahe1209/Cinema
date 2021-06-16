@@ -13,7 +13,8 @@
   height: 100vh;
   padding: 20px;
 }
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -22,7 +23,8 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type=password], select {
+input[type="password"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -32,9 +34,9 @@ input[type=password], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -42,11 +44,11 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type=checkbox]{
+input[type="checkbox"] {
   display: flex;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -55,7 +57,13 @@ div {
   background-color: #f2f2f2;
   padding: 10px;
   width: 30%;
-  margin:auto;
+  margin: auto;
   box-shadow: 5px 10px black;
   opacity: 0.8;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
