@@ -102,3 +102,23 @@ main {
   width: 60%;
   padding: 30px;
 }
+
+.search-menu {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 300px;
+  right: 5px;
+  top: 85px;
+}
+
+.hide {
+  display: none;
+}
+
+.film-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
