@@ -181,3 +181,26 @@ input::placeholder {
   font-size: 1.2em;
   font-style: italic;
 }
+.modal{
+  color: white;
+  width: 15%;
+  border: 3px solid green;
+  position: fixed;
+  bottom: 2vh;
+  background-color: green;
+  z-index: 100;
+  display: none;
+  border-radius: 15px;
+  margin-left: 2vw;
+  text-align: center;
+  height: 10vh;
+}
+.modalError{
+  background-color: red;
+
+}
+.modal p {
+  margin: auto;
+  align-self: center;
+  font-size: 24px;
+}
