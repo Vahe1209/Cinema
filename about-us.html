@@ -8,6 +8,7 @@
   <title>Cinema</title>
   <link rel="stylesheet" href="./about.css" />
   <link rel="stylesheet" href="./main.css">
+  <script src="about.js" defer></script>
 </head>
 
 <body>
@@ -78,10 +79,9 @@
       Frequently Asked Questions
     </h1>
     <div class="btn-container">
-      <div class="btn">
-        <label for=cb>What is Cinema?</label>
-        <input type="checkbox" id="checkBox">
-        <div>
+      <div class="btn" id="btn">
+        <p>What is Cinema? </p>
+        <div class='HidenText'>
           Cinema is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
           documentaries, and more on thousands of internet-connected devices.
 
@@ -90,17 +90,15 @@
         </div>
       </div>
       <div class="btn">
-        <label for=cb>How much does Cinema cost?</label>
-        <input type="checkbox">
-        <div>
+        <p>How much does Cinema cost?</p>
+        <div class='HidenText'>
           Watch Cinema on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly
           fee. Plans range from EUR7.99 to EUR11.99 a month. No extra costs, no contracts.
         </div>
       </div>
       <div class="btn">
-        <label for=cb>Where can I watch?</label>
-        <input type="checkbox">
-        <div>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Cinema account to watch
+        <p>Where can I watch?</p>
+        <div class='HidenText'>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Cinema account to watch
           instantly on the web at Cinema.com from your personal computer or on any internet-connected device that
           offers the Cinema app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
 
@@ -108,9 +106,8 @@
           while you're on the go and without an internet connection. Take Cinema with you anywhere.</div>
       </div>
       <div class="btn">
-        <label for=cb>Is Cinema good for kids?</label>
-        <input type="checkbox">
-        <div>
+        <p>Cinema good for kids? </p> 
+        <div class='HidenText'>
           The Cinema Kids experience is included in your membership to give parents control while kids enjoy
           family-friendly TV shows and movies in their own space.
 
@@ -119,7 +116,13 @@
         </div>
       </div>
     </div>
-
+      <h3>Ready to watch? Enter your email to create or <br> restart your membership.
+      </h3>
+      <div class="input_Btn">
+        <input type="email" placeholder="Email Adress" class="Email_Reg">
+      <button class="Get_Started_Btn">Get Started</button>
+      </div>
+      
   </div>
 
 </body>
