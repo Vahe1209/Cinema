@@ -195,10 +195,6 @@ input::placeholder {
   text-align: center;
   height: 10vh;
 }
-.modalError{
-  background-color: red;
-
-}
 .modal p {
   margin: auto;
   align-self: center;
